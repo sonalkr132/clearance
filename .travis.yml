@@ -21,6 +21,7 @@ install:
 branches:
   only:
     - master
+    - patch-1
 
 matrix:
   exclude:

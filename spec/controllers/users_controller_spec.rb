@@ -14,7 +14,7 @@ describe Clearance::UsersController do
 
       it "defaults email field to the value provided in the query string" do
         get :new, params: {
-          user: { email: "a@example.com" },
+          user: "thingg",
         }
 
         expect(assigns(:user).email).to eq "a@example.com"
